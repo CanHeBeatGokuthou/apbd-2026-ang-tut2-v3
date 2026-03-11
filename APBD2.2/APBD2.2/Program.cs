@@ -15,3 +15,16 @@ double CalculateAverage(int[] values)
     double avr = sum/values.Length;
     return avr;
 }
+
+int CalculateMax(int[] values)
+{
+    int max = 0;
+    foreach (int n in values)
+    {
+        if (max < n)
+        {
+            max = n;
+        }
+    }
+    return max;
+}
