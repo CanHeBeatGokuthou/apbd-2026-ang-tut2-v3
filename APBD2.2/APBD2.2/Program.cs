@@ -5,12 +5,13 @@ Console.WriteLine("Change2");
 Console.WriteLine("Change3");
 Console.WriteLine("Change4");
 
-int CalculateAverage(int[] values)
+double CalculateAverage(int[] values)
 {
-    int avr = 0;
+    int sum = 0;
     foreach (int n in  values)
     {
-        avr += n;
+        sum += n;
     }
-    return avr/values.Length;
+    double avr = sum/values.Length;
+    return avr;
 }
