@@ -38,7 +38,7 @@ int CalculateMin(int[] values)
     {
         if (min > n)
         {
-            
+            min = n;
         }
     }
     return min;
