@@ -28,4 +28,18 @@ int CalculateMax(int[] values)
     }
     return max;
 }
+
 //Update on main
+
+int CalculateMin(int[] values)
+{
+    int min = 0;
+    foreach (int n in values)
+    {
+        if (min > n)
+        {
+            
+        }
+    }
+    return min;
+}
