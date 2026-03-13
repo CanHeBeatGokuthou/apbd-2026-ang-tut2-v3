@@ -35,6 +35,8 @@ int CalculateMin(int[] values)
 {
     int min = 0;
     //Task7 commit on main
+    //Task7 commit
+
     foreach (int n in values)
     {
         if (min > n)
@@ -43,4 +45,5 @@ int CalculateMin(int[] values)
         }
     }
     return min;
+    
 }
