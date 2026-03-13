@@ -34,6 +34,7 @@ int CalculateMax(int[] values)
 int CalculateMin(int[] values)
 {
     int min = 0;
+    //Task7 commit
     foreach (int n in values)
     {
         if (min > n)
@@ -42,4 +43,5 @@ int CalculateMin(int[] values)
         }
     }
     return min;
+    
 }
